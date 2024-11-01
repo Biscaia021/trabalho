@@ -4,18 +4,19 @@ body {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-gap: 10px;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.memory-btn {
-    width: 100px;
-    height: 100px;
-    font-size: 24px;
+#balao {
+    width: 150px;
+    height: 150px;
+    transition: width 0.3s, height 0.3s; /* Anima o balão crescendo */
+}
+
+#bomba {
+    margin-top: 20px;
     cursor: pointer;
-    background-color: #ccc;
-    border: 2px solid #333;
-    border-radius: 5px;
 }
