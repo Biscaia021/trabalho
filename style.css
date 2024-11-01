@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.memory-btn {
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #ccc;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
