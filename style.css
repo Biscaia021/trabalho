@@ -1,22 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#balao {
-    width: 150px;
-    height: 150px;
-    transition: width 0.3s, height 0.3s; /* Anima o balão crescendo */
-}
-
-#bomba {
+button {
     margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
 }
